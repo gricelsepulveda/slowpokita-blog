@@ -1,0 +1,22 @@
+{
+  "id": "generate-unique-id",
+  "slug": "url-friendly-title",
+  "title": "Post Title",
+  "subtitle": "Optional descriptive subtitle",
+  "date": "2024-01-15",
+  "category": "Category",
+  "hashtags": ["tag1", "tag2", "tag3"],
+  "highlighted": false,
+  "readingTime": "5 min",
+  "coverImage": "cover.jpg",
+  "excerpt": "Brief summary that appears in post listings. One or two sentences.",
+  "content": "First paragraph of the post.\n\n$image1\n\nText that continues after first image. Explain what the image shows.\n\n$image2\n\nMore content. Images are centered and clickable for full view.",
+  "assetsPath": "content/posts/your-slug-here",
+  "images": {
+    "image1": "image1.jpg",
+    "image2": "image2.png"
+  },
+  "seoTitle": "Custom SEO Title | slowpokita",
+  "seoDescription": "Custom meta description for search engines",
+  "ogImage": "cover.jpg"
+}
