@@ -1,0 +1,76 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "slug": "mi-primer-post",
+      "title": "Bienvenida al caos ordenado",
+      "subtitle": "Un espacio para escribir sin filtros desde LATAM",
+      "date": "2026-04-01",
+      "category": "Personal",
+      "hashtags": ["bienvenida", "blog", "latam", "reflexiones"],
+      "highlighted": true,
+      "readingTime": 4,
+      "coverImage": "cover.jpg",
+      "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Este blog nace de la necesidad de tener un espacio propio donde las ideas fluyan sin algoritmos que las filtren.",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\n\nDuis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\n$image1\n\nSed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.\n\nNemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.\n\n$image2\n\nNeque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+      "assetsPath": "mi-primer-post",
+      "images": {
+        "image1": "image1.jpg",
+        "image2": "image2.jpg"
+      },
+      "seo": {
+        "seoTitle": "Bienvenida al caos ordenado — slowpokita",
+        "seoDescription": "Un espacio para escribir sin filtros desde LATAM. Lorem ipsum dolor sit amet consectetur.",
+        "ogImage": "cover.jpg"
+      }
+    },
+    {
+      "id": "2",
+      "slug": "vida-en-cdmx",
+      "title": "Vivir en CDMX: guía no oficial",
+      "subtitle": "Todo lo que nadie te cuenta antes de mudarte",
+      "date": "2026-03-15",
+      "category": "Viajes",
+      "hashtags": ["cdmx", "mexico", "ciudad", "vida-urbana", "latam"],
+      "highlighted": false,
+      "readingTime": 6,
+      "coverImage": "cover.jpg",
+      "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivir en Ciudad de México es una experiencia que mezcla caos, belleza, tacos y tráfico a partes iguales.",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivir en Ciudad de México es una experiencia que mezcla caos, belleza, tacos y tráfico a partes iguales.\n\nAt vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.\n\n$image1\n\nSimilique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.\n\nNam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.\n\nTemporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.\n\n$image2\n\nItaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+      "assetsPath": "vida-en-cdmx",
+      "images": {
+        "image1": "image1.jpg",
+        "image2": "image2.jpg"
+      },
+      "seo": {
+        "seoTitle": "Vivir en CDMX: guía no oficial — slowpokita",
+        "seoDescription": "Todo lo que nadie te cuenta antes de mudarte a Ciudad de México. Guía real y sin filtros.",
+        "ogImage": "cover.jpg"
+      }
+    },
+    {
+      "id": "3",
+      "slug": "tecnologia-y-cafe",
+      "title": "Tecnología y café: el maridaje perfecto",
+      "subtitle": "Reflexiones desde mi escritorio a las 2am",
+      "date": "2026-02-20",
+      "category": "Tecnología",
+      "hashtags": ["tecnologia", "programacion", "cafe", "dev", "reflexiones"],
+      "highlighted": false,
+      "readingTime": 5,
+      "coverImage": "cover.jpg",
+      "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Hay algo mágico en programar de madrugada con una taza de café bien cargado y el silencio de la ciudad.",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Hay algo mágico en programar de madrugada con una taza de café bien cargado y el silencio de la ciudad.\n\nCurabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, turpis molestie dictum semper, dolor quam ultrices purus, at blandit lectus lectus eget nunc.\n\n$image1\n\nPhasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula vulputate sem tristique cursus. Nam nulla quam, gravida non, commodo a, sodales sit amet, nisi.\n\nNullam varius, turpis molestie dictum semper, dolor quam ultrices purus, at blandit lectus lectus eget nunc. Donec consectetuer ligula vulputate sem tristique cursus.\n\n$image2\n\nNam nulla quam, gravida non, commodo a, sodales sit amet, nisi. Phasellus ultrices nulla quis nibh. Quisque a lectus et dolor adipiscing suscipit. Fusce tellus odio, dapibus id fermentum quis, suscipit id erat.",
+      "assetsPath": "tecnologia-y-cafe",
+      "images": {
+        "image1": "image1.jpg",
+        "image2": "image2.jpg"
+      },
+      "seo": {
+        "seoTitle": "Tecnología y café: el maridaje perfecto — slowpokita",
+        "seoDescription": "Reflexiones sobre programación, café y madrugadas productivas desde LATAM.",
+        "ogImage": "cover.jpg"
+      }
+    }
+  ]
+}

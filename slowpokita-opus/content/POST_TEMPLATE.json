@@ -1,0 +1,24 @@
+{
+  "id": "XX",
+  "slug": "titulo-en-slug-seo-friendly",
+  "title": "Titulo del post",
+  "subtitle": "Subtitulo opcional",
+  "date": "YYYY-MM-DD",
+  "category": "Cronica",
+  "hashtags": ["tag1", "tag2"],
+  "highlighted": false,
+  "readingTime": 4,
+  "coverImage": "cover.jpg",
+  "excerpt": "Resumen corto de 1-2 frases que aparece en las tarjetas y en metadata.",
+  "content": "Primer parrafo del post.\n\nSegundo parrafo con referencia a imagen.\n\n$image1\n\nTexto despues de la imagen.\n\n$image2\n\nCierre del post.",
+  "assetsPath": "/content/posts/titulo-en-slug-seo-friendly",
+  "images": {
+    "image1": "image1.jpg",
+    "image2": "image2.jpg"
+  },
+  "seo": {
+    "seoTitle": "Titulo SEO opcional",
+    "seoDescription": "Descripcion SEO opcional",
+    "ogImage": "/content/posts/titulo-en-slug-seo-friendly/cover.jpg"
+  }
+}

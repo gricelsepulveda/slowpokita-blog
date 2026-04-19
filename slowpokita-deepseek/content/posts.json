@@ -1,0 +1,68 @@
+[
+  {
+    "id": "1",
+    "slug": "introduccion-al-diseno-web-moderno",
+    "title": "Introducción al Diseño Web Moderno",
+    "subtitle": "Explorando las tendencias actuales en desarrollo frontend",
+    "date": "2024-03-15",
+    "category": "Diseño Web",
+    "hashtags": ["diseño", "web", "frontend", "tendencias"],
+    "highlighted": true,
+    "readingTime": 8,
+    "coverImage": "/content/posts/introduccion-al-diseno-web-moderno/cover.jpg",
+    "excerpt": "Un análisis profundo de las últimas tendencias en diseño web y cómo implementarlas en proyectos reales.",
+    "content": "El diseño web ha evolucionado significativamente en los últimos años. Lo que antes era simple HTML y CSS ahora es un ecosistema complejo de frameworks, librerías y metodologías.\n\n$image1\n\nEn la imagen anterior podemos observar cómo la jerarquía visual ha cambiado. Los espacios en blanco son ahora elementos estratégicos, no simplemente vacíos.\n\nLa tipografía juega un papel crucial. Montserrat, nuestra fuente principal, ofrece excelente legibilidad en todos los dispositivos.\n\n$image2\n\nLos componentes reutilizables han transformado la forma en que construimos interfaces. React y Next.js nos permiten crear sistemas de diseño consistentes.\n\nLa paleta de colores #1E1B4C, #FF2E97, #FFD402 y #0ABDC6 crea un contraste visual atractivo mientras mantiene la legibilidad.",
+    "assetsPath": "/content/posts/introduccion-al-diseno-web-moderno",
+    "images": {
+      "image1": "layout-evolution.jpg",
+      "image2": "component-structure.jpg"
+    },
+    "seoTitle": "Diseño Web Moderno 2024 - Tendencias y Mejores Prácticas",
+    "seoDescription": "Guía completa sobre las últimas tendencias en diseño web, incluyendo frameworks, tipografía y paletas de colores para 2024.",
+    "ogImage": "/content/posts/introduccion-al-diseno-web-moderno/og-image.jpg"
+  },
+  {
+    "id": "2",
+    "slug": "arquitectura-hexagonal-en-frontend",
+    "title": "Arquitectura Hexagonal en Frontend",
+    "subtitle": "Cómo aplicar principios de arquitectura limpia a proyectos React/Next.js",
+    "date": "2024-02-28",
+    "category": "Arquitectura de Software",
+    "hashtags": ["arquitectura", "hexagonal", "clean-code", "react"],
+    "highlighted": false,
+    "readingTime": 12,
+    "coverImage": "/content/posts/arquitectura-hexagonal-en-frontend/cover.jpg",
+    "excerpt": "Implementación práctica de arquitectura hexagonal en aplicaciones frontend con TypeScript y Next.js.",
+    "content": "La arquitectura hexagonal, también conocida como puertos y adaptadores, es un patrón arquitectónico que promueve la separación de preocupaciones.\n\n$image1\n\nEl diagrama muestra cómo el dominio (núcleo de negocio) permanece aislado de la infraestructura y la presentación.\n\nEn nuestro blog, hemos implementado esta arquitectura de la siguiente manera:\n\n1. **Dominio**: Define las entidades y tipos (Post, Category)\n2. **Aplicación**: Contiene los casos de uso (GetPostsUseCase)\n3. **Infraestructura**: Implementa repositorios (JsonPostRepository)\n4. **Presentación**: Componentes React y páginas Next.js\n\n$image2\n\nLos beneficios incluyen:\n- Testabilidad mejorada\n- Menor acoplamiento\n- Mayor mantenibilidad\n- Facilidad para cambiar implementaciones\n\nEl repositorio JSON es solo un adaptador. Podríamos cambiarlo por una API REST sin modificar el dominio.",
+    "assetsPath": "/content/posts/arquitectura-hexagonal-en-frontend",
+    "images": {
+      "image1": "hexagonal-diagram.jpg",
+      "image2": "implementation-layers.jpg"
+    },
+    "seoTitle": "Arquitectura Hexagonal en Frontend - Guía Práctica con Next.js",
+    "seoDescription": "Aprende a implementar arquitectura hexagonal en proyectos frontend con TypeScript, React y Next.js para código más mantenible.",
+    "ogImage": "/content/posts/arquitectura-hexagonal-en-frontend/og-image.jpg"
+  },
+  {
+    "id": "3",
+    "slug": "seo-para-blogs-estaticos",
+    "title": "SEO para Blogs Estáticos",
+    "subtitle": "Optimización avanzada para proyectos sin base de datos",
+    "date": "2024-01-10",
+    "category": "SEO",
+    "hashtags": ["seo", "nextjs", "ssr", "optimizacion"],
+    "highlighted": true,
+    "readingTime": 10,
+    "coverImage": "/content/posts/seo-para-blogs-estaticos/cover.jpg",
+    "excerpt": "Estrategias de SEO específicas para blogs estáticos generados con Next.js y SSR.",
+    "content": "Los blogs estáticos tienen ventajas únicas para SEO, pero también requieren consideraciones especiales.\n\n$image1\n\nNext.js con App Router ofrece SSR nativo, lo que significa que los motores de búsqueda ven contenido renderizado en el servidor.\n\nElementos clave de SEO implementados:\n\n1. **Metadatos por página**: Cada post tiene title, description y OG tags personalizados\n2. **Estructura semántica**: Uso correcto de h1, h2, article, time\n3. **JSON-LD**: Schema markup para artículos\n4. **Sitemap.xml**: Generado automáticamente\n5. **robots.txt**: Configuración para crawlers\n\n$image2\n\nLa velocidad de carga es crítica. Nuestro blog utiliza:\n- Imágenes optimizadas\n- Fonts locales\n- Código dividido (code splitting)\n- Caché apropiado\n\nLos slugs amigables (/post/seo-para-blogs-estaticos) mejoran la experiencia de usuario y SEO.",
+    "assetsPath": "/content/posts/seo-para-blogs-estaticos",
+    "images": {
+      "image1": "seo-metrics.jpg",
+      "image2": "performance-chart.jpg"
+    },
+    "seoTitle": "SEO Avanzado para Blogs Estáticos con Next.js - Guía 2024",
+    "seoDescription": "Optimización completa de SEO para blogs estáticos: metadatos, estructura semántica, JSON-LD y mejores prácticas con Next.js.",
+    "ogImage": "/content/posts/seo-para-blogs-estaticos/og-image.jpg"
+  }
+]

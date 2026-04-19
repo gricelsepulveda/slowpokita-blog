@@ -1,0 +1,24 @@
+{
+  "id": "REEMPLAZAR_CON_ID_UNICO",
+  "slug": "titulo-del-post-en-kebab-case",
+  "title": "Título del Post",
+  "subtitle": "Subtítulo opcional",
+  "date": "YYYY-MM-DD",
+  "category": "Personal",
+  "hashtags": ["tag1", "tag2", "tag3"],
+  "highlighted": false,
+  "readingTime": 5,
+  "coverImage": "cover.jpg",
+  "excerpt": "Resumen breve del post, máximo 200 caracteres aproximadamente.",
+  "content": "Primer párrafo del post.\n\nSegundo párrafo con más desarrollo.\n\n$image1\n\nTexto después de la primera imagen.\n\n$image2\n\nContinuación del post.",
+  "assetsPath": "titulo-del-post-en-kebab-case",
+  "images": {
+    "image1": "nombre-imagen1.jpg",
+    "image2": "nombre-imagen2.jpg"
+  },
+  "seo": {
+    "seoTitle": "Título del Post — slowpokita",
+    "seoDescription": "Descripción SEO de 150 caracteres aprox. Debe describir bien el contenido.",
+    "ogImage": "cover.jpg"
+  }
+}
