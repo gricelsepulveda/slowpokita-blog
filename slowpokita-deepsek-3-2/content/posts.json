@@ -1,0 +1,122 @@
+[
+  {
+    "id": "1",
+    "slug": "getting-started-with-nextjs",
+    "title": "Getting Started with Next.js",
+    "subtitle": "A comprehensive guide to building modern web applications",
+    "date": "2024-01-15",
+    "category": "Web Development",
+    "hashtags": ["nextjs", "react", "typescript"],
+    "highlighted": true,
+    "readingTime": 8,
+    "coverImage": "/content/posts/getting-started-with-nextjs/cover.jpg",
+    "excerpt": "Learn how to set up a Next.js project from scratch and build your first application with best practices.",
+    "content": "Next.js has revolutionized the way we build React applications. With its powerful features like server-side rendering, static site generation, and API routes, it provides a complete solution for modern web development.\n\nIn this comprehensive guide, we'll walk through setting up a new Next.js project, configuring TypeScript, and building your first application.\n\n$image1\n\nOne of the key advantages of Next.js is its file-based routing system. Unlike traditional React applications that require complex routing setups, Next.js automatically creates routes based on the file structure in the pages directory.\n\n$image2\n\nThe framework also excels in performance optimization. With features like automatic code splitting, image optimization, and built-in CSS support, your applications will be fast and efficient right out of the box.",
+    "assetsPath": "/content/posts/getting-started-with-nextjs",
+    "images": {
+      "image1": {
+        "src": "/content/posts/getting-started-with-nextjs/image1.jpg",
+        "alt": "Next.js project structure",
+        "caption": "The typical folder structure of a Next.js project"
+      },
+      "image2": {
+        "src": "/content/posts/getting-started-with-nextjs/image2.jpg",
+        "alt": "Next.js routing example",
+        "caption": "How file-based routing works in Next.js"
+      }
+    },
+    "seoTitle": "Getting Started with Next.js - Complete Guide",
+    "seoDescription": "Learn how to set up and build modern web applications with Next.js, React, and TypeScript. Comprehensive guide for beginners.",
+    "ogImage": "/content/posts/getting-started-with-nextjs/og-image.jpg"
+  },
+  {
+    "id": "2",
+    "slug": "typescript-best-practices",
+    "title": "TypeScript Best Practices",
+    "subtitle": "Writing clean and maintainable TypeScript code",
+    "date": "2024-01-20",
+    "category": "Programming",
+    "hashtags": ["typescript", "javascript", "best-practices"],
+    "highlighted": true,
+    "readingTime": 12,
+    "coverImage": "/content/posts/typescript-best-practices/cover.jpg",
+    "excerpt": "Discover essential TypeScript patterns and practices that will make your code more robust and maintainable.",
+    "content": "TypeScript has become the de facto standard for large-scale JavaScript applications. Its static typing system helps catch errors early and makes code more self-documenting.\n\n$image1\n\nOne of the most important best practices is to use strict mode. This enables all strict type-checking options, providing the highest level of type safety. Always start your TypeScript projects with strict mode enabled.\n\n$image2\n\nAnother key practice is to leverage TypeScript's advanced type features like generics, conditional types, and mapped types. These powerful tools can help you create flexible and reusable code patterns.\n\nRemember to use interfaces for object shapes and type aliases for complex type expressions. This separation makes your code more readable and maintainable.",
+    "assetsPath": "/content/posts/typescript-best-practices",
+    "images": {
+      "image1": {
+        "src": "/content/posts/typescript-best-practices/image1.jpg",
+        "alt": "TypeScript strict mode",
+        "caption": "Enabling strict mode in tsconfig.json"
+      },
+      "image2": {
+        "src": "/content/posts/typescript-best-practices/image2.jpg",
+        "alt": "TypeScript generics example",
+        "caption": "Using generics for reusable components"
+      }
+    },
+    "seoTitle": "TypeScript Best Practices for Clean Code",
+    "seoDescription": "Learn essential TypeScript patterns, strict mode configuration, and advanced type features for maintainable code.",
+    "ogImage": "/content/posts/typescript-best-practices/og-image.jpg"
+  },
+  {
+    "id": "3",
+    "slug": "responsive-design-principles",
+    "title": "Responsive Design Principles",
+    "subtitle": "Creating websites that work on any device",
+    "date": "2024-02-05",
+    "category": "Web Design",
+    "hashtags": ["css", "responsive", "design"],
+    "highlighted": false,
+    "readingTime": 6,
+    "coverImage": "/content/posts/responsive-design-principles/cover.jpg",
+    "excerpt": "Master the fundamental principles of responsive web design to create adaptable and user-friendly interfaces.",
+    "content": "Responsive design is no longer optional—it's essential. With the proliferation of mobile devices, your website must provide an excellent experience across all screen sizes.\n\n$image1\n\nThe core principles of responsive design include fluid grids, flexible images, and media queries. Fluid grids use relative units like percentages instead of fixed pixels, allowing layouts to adapt to different screen sizes.\n\n$image2\n\nFlexible images scale within their containing elements, preventing them from breaking the layout on smaller screens. Always set max-width: 100% on images to ensure they scale properly.\n\nMedia queries are the backbone of responsive design. They allow you to apply different styles based on device characteristics like width, height, and orientation.",
+    "assetsPath": "/content/posts/responsive-design-principles",
+    "images": {
+      "image1": {
+        "src": "/content/posts/responsive-design-principles/image1.jpg",
+        "alt": "Responsive design example",
+        "caption": "How layouts adapt to different screen sizes"
+      },
+      "image2": {
+        "src": "/content/posts/responsive-design-principles/image2.jpg",
+        "alt": "CSS media queries",
+        "caption": "Example of media query breakpoints"
+      }
+    },
+    "seoTitle": "Responsive Web Design Principles Guide",
+    "seoDescription": "Learn fluid grids, flexible images, and media queries to create websites that work perfectly on all devices.",
+    "ogImage": "/content/posts/responsive-design-principles/og-image.jpg"
+  },
+  {
+    "id": "4",
+    "slug": "modern-javascript-features",
+    "title": "Modern JavaScript Features",
+    "subtitle": "ES6+ features every developer should know",
+    "date": "2024-02-12",
+    "category": "JavaScript",
+    "hashtags": ["javascript", "es6", "ecmascript"],
+    "highlighted": true,
+    "readingTime": 10,
+    "coverImage": "/content/posts/modern-javascript-features/cover.jpg",
+    "excerpt": "Explore the most useful JavaScript features introduced in ES6 and beyond to write cleaner, more efficient code.",
+    "content": "JavaScript has evolved tremendously since ES6, introducing features that make the language more powerful and expressive. Understanding these features is crucial for modern web development.\n\n$image1\n\nArrow functions provide a concise syntax for writing functions and solve the traditional 'this' binding issues. They're perfect for short callback functions and methods.\n\n$image2\n\nDestructuring assignment allows you to extract values from arrays or properties from objects into distinct variables. This makes code more readable and reduces boilerplate.\n\nTemplate literals provide an elegant way to work with strings, supporting multi-line strings and embedded expressions. They're much more powerful than traditional string concatenation.",
+    "assetsPath": "/content/posts/modern-javascript-features",
+    "images": {
+      "image1": {
+        "src": "/content/posts/modern-javascript-features/image1.jpg",
+        "alt": "JavaScript arrow functions",
+        "caption": "Comparison of traditional vs arrow functions"
+      },
+      "image2": {
+        "src": "/content/posts/modern-javascript-features/image2.jpg",
+        "alt": "Destructuring examples",
+        "caption": "Object and array destructuring patterns"
+      }
+    },
+    "seoTitle": "Modern JavaScript ES6+ Features Guide",
+    "seoDescription": "Learn arrow functions, destructuring, template literals, and other essential ES6+ JavaScript features.",
+    "ogImage": "/content/posts/modern-javascript-features/og-image.jpg"
+  }
+]
