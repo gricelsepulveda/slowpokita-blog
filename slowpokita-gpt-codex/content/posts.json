@@ -1,0 +1,66 @@
+[
+  {
+    "id": "01",
+    "slug": "cafe-de-olla-y-memorias-de-abuela",
+    "title": "Cafe de olla y memorias de abuela",
+    "subtitle": "Lorem ipsum dolor sit amet, un domingo cualquiera en la cocina",
+    "date": "2026-03-12",
+    "category": "Cronica",
+    "hashtags": ["familia", "cafe", "latinoamerica"],
+    "highlighted": true,
+    "readingTime": 4,
+    "coverImage": "cover.jpg",
+    "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Entre el humo de la hornilla y la voz ronca de la abuela, el cafe de olla siempre tuvo algo de rezo.",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.\n\nLa cocina olia a piloncillo y canela, y el reloj de la pared parecia ir mas lento solo para nosotras.\n\n$image1\n\nEn la imagen anterior, la olla de barro que acompano a la abuela por treinta anos. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.\n\nExcepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem.\n\n$image2\n\nY asi, entre sorbo y sorbo, la tarde se volvia un archivo de voces. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.",
+    "assetsPath": "/content/posts/cafe-de-olla-y-memorias-de-abuela",
+    "images": {
+      "image1": "image1.jpg",
+      "image2": "image2.jpg"
+    },
+    "seoTitle": "Cafe de olla y memorias de abuela - slowpokita",
+    "seoDescription": "Una cronica lenta sobre el cafe de olla, la abuela y los domingos que no vuelven.",
+    "ogImage": "/content/posts/cafe-de-olla-y-memorias-de-abuela/cover.jpg"
+  },
+  {
+    "id": "02",
+    "slug": "fotos-analogas-en-valparaiso",
+    "title": "Fotos analogas en Valparaiso",
+    "subtitle": "Lorem ipsum, colinas, gatos y rollo de 35mm",
+    "date": "2026-02-05",
+    "category": "Fotografia",
+    "hashtags": ["valparaiso", "35mm", "chile"],
+    "highlighted": false,
+    "readingTime": 3,
+    "coverImage": "cover.jpg",
+    "excerpt": "Lorem ipsum dolor sit amet. Subir cerros con una camara vieja y sin apuro, perseguir la luz que cae entre murales.",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget massa sit amet urna fermentum dictum. Valparaiso se camina despacio o no se camina.\n\nLa camara pesa, pero la lentitud del rollo obliga a mirar mas. Cada disparo cuesta y por eso vale.\n\n$image1\n\nEsa escalera, esos cables, ese gato amarillo mirando sin miedo. Nullam quis risus eget urna mollis ornare vel eu leo.\n\nMorbi leo risus, porta ac consectetur ac, vestibulum at eros. Aenean lacinia bibendum nulla sed consectetur.",
+    "assetsPath": "/content/posts/fotos-analogas-en-valparaiso",
+    "images": {
+      "image1": "image1.jpg"
+    },
+    "seoTitle": "Fotos analogas en Valparaiso - slowpokita",
+    "seoDescription": "Un paseo con camara de rollo por cerros, murales y escaleras de Valparaiso.",
+    "ogImage": "/content/posts/fotos-analogas-en-valparaiso/cover.jpg"
+  },
+  {
+    "id": "03",
+    "slug": "como-organizo-mi-semana-sin-prisa",
+    "title": "Como organizo mi semana sin prisa",
+    "subtitle": "Lorem ipsum productividad lenta",
+    "date": "2026-01-20",
+    "category": "Reflexiones",
+    "hashtags": ["slowliving", "rutinas", "enfoque"],
+    "highlighted": false,
+    "readingTime": 5,
+    "coverImage": "cover.jpg",
+    "excerpt": "Lorem ipsum dolor sit amet. Un sistema simple para planear la semana sin sentir que corro detras del tiempo.",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus suscipit tortor eget felis porttitor volutpat.\n\nEmpiezo los domingos con una libreta y una taza. Nada de apps, nada de notificaciones. Solo tres columnas: lo urgente, lo importante, lo que me alegra.\n\n$image1\n\nEsa libreta es la misma desde hace un ano. Cras ultricies ligula sed magna dictum porta. Donec rutrum congue leo eget malesuada.\n\nLa trampa de la productividad rapida es confundir movimiento con avance. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.",
+    "assetsPath": "/content/posts/como-organizo-mi-semana-sin-prisa",
+    "images": {
+      "image1": "image1.jpg"
+    },
+    "seoTitle": "Como organizo mi semana sin prisa - slowpokita",
+    "seoDescription": "Una rutina simple para planear la semana con foco, calma y menos ruido.",
+    "ogImage": "/content/posts/como-organizo-mi-semana-sin-prisa/cover.jpg"
+  }
+]
