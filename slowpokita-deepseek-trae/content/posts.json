@@ -1,0 +1,92 @@
+[
+  {
+    "id": "1",
+    "slug": "getting-started-with-hexagonal-architecture",
+    "title": "Getting Started with Hexagonal Architecture",
+    "subtitle": "A practical guide to building maintainable applications",
+    "date": "2024-03-15",
+    "category": "Software Architecture",
+    "hashtags": ["architecture", "clean-code", "ddd"],
+    "highlighted": true,
+    "readingTime": 8,
+    "coverImage": "/images/hexagonal-cover.jpg",
+    "excerpt": "Learn how to structure your application using hexagonal architecture to keep business logic independent of frameworks and infrastructure.",
+    "content": "Hexagonal architecture, also known as ports and adapters, is a software design pattern that aims to create loosely coupled application components.\\n\\nThe core idea is to isolate the business logic (the hexagon) from external concerns like databases, UIs, or third-party services.\\n\\n$image1\\n\\nBy defining ports (interfaces) and adapters (implementations), you can easily swap out dependencies without changing the core domain.\\n\\nThis approach is particularly useful for long‑lived projects where technology stacks evolve over time.\\n\\n$image2\\n\\nIn this article we'll walk through a concrete example using TypeScript and Next.js.",
+    "assetsPath": "/content/posts/getting-started-with-hexagonal-architecture",
+    "images": {
+      "$image1": {
+        "src": "/content/posts/getting-started-with-hexagonal-architecture/diagram.png",
+        "alt": "Hexagonal architecture diagram",
+        "caption": "The core hexagon with surrounding adapters"
+      },
+      "$image2": {
+        "src": "/content/posts/getting-started-with-hexagonal-architecture/code-snippet.png",
+        "alt": "TypeScript code example",
+        "caption": "Port interface and adapter implementation"
+      }
+    },
+    "seoTitle": "Hexagonal Architecture Guide | Slowpokita",
+    "seoDescription": "A step-by-step guide to implementing hexagonal architecture in TypeScript and Next.js for maintainable applications.",
+    "ogImage": "/images/hexagonal-og.jpg"
+  },
+  {
+    "id": "2",
+    "slug": "dark-mode-aesthetics-in-modern-web-design",
+    "title": "Dark Mode Aesthetics in Modern Web Design",
+    "subtitle": "Creating calm, readable interfaces for night owls",
+    "date": "2024-04-02",
+    "category": "Design",
+    "hashtags": ["design", "dark-mode", "ui", "accessibility"],
+    "highlighted": true,
+    "readingTime": 6,
+    "coverImage": "/images/dark-mode-cover.jpg",
+    "excerpt": "Explore the principles behind effective dark mode design and how to implement a palette that reduces eye strain.",
+    "content": "Dark mode isn't just a trend—it's a usability feature that can reduce eye strain and save battery life on OLED screens.\\n\\n$image1\\n\\nChoosing the right background color is crucial. Pure black (#000) can cause harsh contrasts, while dark grays (#1a1a1a) are often more comfortable.\\n\\nAccent colors should be carefully selected to maintain readability and visual hierarchy.\\n\\n$image2\\n\\nWe'll look at concrete CSS variables and design tokens you can adopt in your own projects.",
+    "assetsPath": "/content/posts/dark-mode-aesthetics-in-modern-web-design",
+    "images": {
+      "$image1": {
+        "src": "/content/posts/dark-mode-aesthetics-in-modern-web-design/palette.png",
+        "alt": "Dark mode color palette",
+        "caption": "Recommended background and accent colors"
+      },
+      "$image2": {
+        "src": "/content/posts/dark-mode-aesthetics-in-modern-web-design/contrast-example.png",
+        "alt": "Contrast comparison",
+        "caption": "Pure black vs dark gray backgrounds"
+      }
+    },
+    "seoTitle": "Dark Mode Design Principles | Slowpokita",
+    "seoDescription": "Learn how to create effective dark mode interfaces with proper color contrast and accessibility in mind.",
+    "ogImage": "/images/dark-mode-og.jpg"
+  },
+  {
+    "id": "3",
+    "slug": "building-a-static-blog-with-nextjs-and-json",
+    "title": "Building a Static Blog with Next.js and JSON",
+    "subtitle": "No database, no CMS—just files",
+    "date": "2024-04-10",
+    "category": "Web Development",
+    "hashtags": ["nextjs", "static-site", "blog", "json"],
+    "highlighted": false,
+    "readingTime": 10,
+    "coverImage": "/images/nextjs-blog-cover.jpg",
+    "excerpt": "How to create a fast, SEO‑friendly blog using Next.js App Router and local JSON files as the content source.",
+    "content": "Static blogs are making a comeback, and for good reason: they're fast, secure, and easy to deploy.\\n\\n$image1\\n\\nWith Next.js 14 and the App Router, we can build a fully static site that still supports dynamic features like pagination and search.\\n\\nAll content lives in local JSON files, making it easy to version and edit without a database.\\n\\n$image2\\n\\nThis article walks through the architecture, from file structure to deployment on Vercel.",
+    "assetsPath": "/content/posts/building-a-static-blog-with-nextjs-and-json",
+    "images": {
+      "$image1": {
+        "src": "/content/posts/building-a-static-blog-with-nextjs-and-json/folder-structure.png",
+        "alt": "Project folder structure",
+        "caption": "Organizing content, components, and utilities"
+      },
+      "$image2": {
+        "src": "/content/posts/building-a-static-blog-with-nextjs-and-json/deploy-diagram.png",
+        "alt": "Deployment pipeline",
+        "caption": "From local JSON to live static site"
+      }
+    },
+    "seoTitle": "Static Blog with Next.js and JSON | Slowpokita",
+    "seoDescription": "Step‑by‑step tutorial for building a performant static blog using Next.js App Router and local JSON files.",
+    "ogImage": "/images/nextjs-blog-og.jpg"
+  }
+]

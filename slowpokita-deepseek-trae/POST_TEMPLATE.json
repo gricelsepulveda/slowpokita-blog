@@ -1,0 +1,30 @@
+{
+  "id": "<unique-id>",
+  "slug": "your-post-slug",
+  "title": "Your Post Title",
+  "subtitle": "Optional subtitle",
+  "date": "2024-01-01",
+  "category": "Category Name",
+  "hashtags": ["tag1", "tag2"],
+  "highlighted": false,
+  "readingTime": 5,
+  "coverImage": "/images/cover.jpg",
+  "excerpt": "A brief summary of the post that will appear in cards and meta descriptions.",
+  "content": "This is the main content of your post. Use \\n for line breaks.\\n\\nYou can insert image placeholders like $image1, $image2, etc. where you want images to appear.\\n\\nMake sure the placeholder keys match the ones defined in the images map below.",
+  "assetsPath": "/content/posts/your-post-slug",
+  "images": {
+    "$image1": {
+      "src": "/content/posts/your-post-slug/image1.png",
+      "alt": "Description of image 1 for accessibility",
+      "caption": "Optional caption that appears below the image"
+    },
+    "$image2": {
+      "src": "/content/posts/your-post-slug/image2.jpg",
+      "alt": "Description of image 2",
+      "caption": ""
+    }
+  },
+  "seoTitle": "Custom SEO Title (optional)",
+  "seoDescription": "Custom SEO description (optional)",
+  "ogImage": "/images/og-image.jpg"
+}

@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: #1E1B4C;
+    --background-light: #2A2766;
+    --background-dark: #15133B;
+    --foreground: #F8F9FA;
+    --primary: #FF2E97;
+    --secondary: #FFD402;
+    --accent: #0ABDC6;
+    --muted: #A0A0C0;
+    --border: #3A3780;
+    --radius: 12px;
+    --shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    --shadow-light: 0 5px 15px rgba(0, 0, 0, 0.2);
+  }
+
+  html {
+    height: 100%;
+  }
+
+  body {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+
+    background-color: var(--background);
+    color: var(--foreground);
+    font-family: 'Montserrat', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    line-height: 1.6;
+    overflow-x: hidden;
+  }
+
+  a {
+    @apply transition-colors;
+    color: var(--accent);
+  }
+
+  a:hover {
+    color: var(--secondary);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-semibold leading-tight;
+  }
+
+  h1 {
+    @apply text-4xl md:text-5xl;
+  }
+
+  h2 {
+    @apply text-3xl md:text-4xl;
+  }
+
+  h3 {
+    @apply text-2xl md:text-3xl;
+  }
+
+  p {
+    @apply mb-6;
+  }
+
+  code {
+    @apply font-mono px-1 rounded text-sm;
+    background-color: var(--background-light);
+  }
+
+  pre {
+    @apply p-4 rounded-xl overflow-x-auto mb-6;
+    background-color: var(--background-light);
+  }
+}
+
+@layer components {
+  .container {
+    @apply w-full max-w-6xl mx-auto px-6;
+  }
+
+  .card {
+    @apply border rounded-2xl p-6 shadow-light transition-all duration-300;
+    background-color: var(--background-light);
+    border-color: var(--border);
+  }
+
+  .card:hover {
+    @apply shadow -translate-y-1;
+  }
+
+  .btn {
+    @apply inline-flex items-center justify-center px-6 py-3 rounded-xl font-semibold transition-all duration-200;
+  }
+
+  .btn-primary {
+    @apply text-white hover:bg-opacity-90;
+    background-color: var(--primary);
+  }
+
+  .btn-secondary {
+    @apply hover:bg-opacity-90;
+    background-color: var(--secondary);
+    color: var(--background);
+  }
+
+  .btn-accent {
+    @apply text-white hover:bg-opacity-90;
+    background-color: var(--accent);
+  }
+
+  .tag {
+    @apply inline-block px-3 py-1 text-sm rounded-full mr-2 mb-2 transition-colors;
+    background-color: var(--background-dark);
+    color: var(--muted);
+  }
+
+  .tag:hover {
+    background-color: var(--border);
+    color: var(--foreground);
+  }
+
+  .highlighted {
+    @apply border-l-4 pl-4;
+    border-color: var(--primary);
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    @apply px-4;
+  }
+  
+  h1 {
+    @apply text-3xl;
+  }
+  
+  h2 {
+    @apply text-2xl;
+  }
+  
+  h3 {
+    @apply text-xl;
+  }
+}
